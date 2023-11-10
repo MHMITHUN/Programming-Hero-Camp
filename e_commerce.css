@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+    border: 1px solid red;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* .global-padding{
+    padding: 0 20px;
+} */
+nav{
+    display: flex;
+    padding : 20px;
+    justify-content: space-between;
+}
+.daraz-logo img{
+    width: 100px;
+    height: 50px;
+}
+.fun{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.fun :hover{
+    color: orange;
+}
+.category h1{
+    padding-top: 30px;  
+    padding-bottom: 10px;
+}
+.category{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+.category :hover{
+    color: orange;
+}
+
+.iknow{
+    display: flex;
+    justify-content: space-between; 
+}
+.pic2 img{
+    padding :30px 20px;
+    width: 650px;
+    height:350px;
+}
+#rad{
+    border-radius: 10px;
+}
+.forhover :hover{
+    color: red;
+    cursor: pointer;
+}
+.sec3-p1{
+
+}
+.sec3{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sec4{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sec4-p1{
+    padding :5px 20px;
+    padding-right: 50px;
+    text-align: justify;
+}
+.sec4-p2{
+    padding :5px 20px;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+.end{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    padding: 15px;
+    padding-left: 460px;
+}
+.myfoot{
+    text-align: center;
+}
